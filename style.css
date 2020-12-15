@@ -1,3 +1,43 @@
+* {
+   box-sizing: border-box;
+}
+
 body {
-   background-color: #333;
+   margin: 0px;
+   background-color: #fff;
+   font-family: 'Poppins';
+   color: #333;
+}
+
+a {
+   color: inherit;
+   text-decoration: inherit;
+}
+
+.navbar {
+   margin: 50px 56px 50px 52px;
+}
+
+.navbar-brand {
+   float: left;
+}
+
+.navbar-brand h1 {
+   font-family: 'Heebo';
+   font-size: 2.25em;
+   margin: 0;
+}
+
+.navbar-collapse {
+   float: right;
+   width: 700px;
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.navbar-collapse ul {
+   list-style-type: none;
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
 }
