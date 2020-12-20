@@ -15,7 +15,7 @@
 body {
    margin: 0px;
    font-family: 'Poppins';
-   color: #333;
+   color: var(--gray1);
 }
 
 a {
@@ -69,4 +69,50 @@ a {
 .hero-img {
    border-radius: 18px;
    width: 100%;
+}
+
+.email-contact {
+   margin: 40px 0 0 280px;
+   font-size: 14px;
+   font-weight: 500;
+   color: var(--gray3)
+}
+
+.email-form {
+   position: relative;
+}
+
+input[type="email"] {
+   width: 350px;
+   height: 57px;
+   border-radius: 12px;
+   background-color: var(--gray6);
+   color: var(--gray3);
+   font-family: 'Poppins';
+   font-size: 18px;
+   font-weight: 500;
+   padding: 15px 105px 15px 21px;
+   outline: none;
+   border: none;
+}
+
+input[type="email"]::placeholder {
+   color: var(--gray4);
+}
+
+input[type="submit"] {
+   width: 94px;
+   height: 49px;
+   border-radius: 12px;
+   background-color: var(--blue);
+   color: var(--gray6);
+   font-family: 'Poppins';
+   font-size: 18px;
+   font-weight: 500;
+   outline: none;
+   border: none;
+   position: absolute;
+   top: 4px;
+   left: 251px;
+   cursor: pointer;
 }
