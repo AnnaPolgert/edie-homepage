@@ -4,7 +4,6 @@
 
 body {
    margin: 0px;
-   background-color: #fff;
    font-family: 'Poppins';
    color: #333;
 }
@@ -40,4 +39,24 @@ a {
    display: flex;
    justify-content: space-between;
    margin: 0;
+}
+
+.title1 {
+   margin: 100px 0 0 280px;
+   font-size: 18px;
+}
+
+.title1 h2 {
+   font-size: 48px;
+   font-weight: 500;
+   margin: 0;
+}
+
+.title1 p {
+   max-width: 366px;
+}
+
+.hero-img {
+   border-radius: 18px;
+   width: 100%;
 }
