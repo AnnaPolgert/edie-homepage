@@ -194,3 +194,41 @@ input[type="submit"] {
    color: var(--gray6);
    cursor: pointer;
 }
+
+.work-row {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 165px 0 165px;
+}
+
+.work-row:nth-of-type(2) {
+ margin-top: 60px;
+}
+
+.work-img {
+   width: 545px;
+   height: 545px;
+}
+
+.work-img:first-child {
+   margin-top: 188px;
+}
+
+.w-img {
+   width: 100%;
+   border-radius: 22px;
+}
+
+.description-title {
+   font-size: 14px;
+   line-height: 21px;
+   font-weight: 300;
+   color: var(--gray3);
+}
+
+.description {
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 500;
+   margin: 0;
+}
