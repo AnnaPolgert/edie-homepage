@@ -217,6 +217,12 @@ input[type="submit"] {
 .w-img {
    width: 100%;
    border-radius: 22px;
+   transition: transform .2s ease-in-out;
+}
+
+.w-img:hover {
+   transform: scale(1.05);
+   cursor: pointer;
 }
 
 .description-title {
