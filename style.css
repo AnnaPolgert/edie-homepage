@@ -11,12 +11,14 @@
    --gray6: #F2F2F2;
    --gray7: #E0E0E0;
    --blue: #2D9CDB;
+   --red: #EB5757;
 }
 
 body {
    margin: 0px;
    font-family: 'Poppins';
    color: var(--gray1);
+   cursor: default;
 }
 
 a {
@@ -72,11 +74,26 @@ a {
    margin: 200px 0 0 165px;
 }
 
+.title2 p {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--gray2);
+}
+
 .title2 h2 {
    font-size: 36px;
    font-weight: 500;
    line-height: 54px;
    margin: 0;
+}
+
+.title2 h5 {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   color: var(--red);
+   margin: 10px 0;
 }
 
 .hero-img {
@@ -196,6 +213,7 @@ input[type="submit"] {
 }
 
 .work-row {
+   position: relative;
    display: flex;
    justify-content: space-around;
    margin: 0 165px 0 165px;
@@ -237,4 +255,42 @@ input[type="submit"] {
    line-height: 36px;
    font-weight: 500;
    margin: 0;
+}
+
+.see-more {
+   position: absolute;
+   right: 100px;
+   bottom: -100px;
+   margin: 0;
+   color: var(--blue);
+   font-size: 24px;
+   line-height: 36px;
+   font-weight: 500;
+}
+
+.team {
+   display: flex;
+   flex: row wrap;
+   justify-content: space-between;
+   margin: 250px 165px 0 0;
+}
+
+.half {
+   max-width: 300px;
+   margin-top: 130px;
+}
+
+.img-col-container {
+   display: flex;
+   align-items: center;
+}
+
+.img-col-2 {
+   display: flex;
+   flex-direction: column;
+}
+
+.img-person {
+   border-radius: 24px;
+   margin: 12px;
 }
