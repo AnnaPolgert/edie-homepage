@@ -291,6 +291,16 @@ input[type="submit"] {
 }
 
 .img-person {
-   border-radius: 24px;
+   overflow: hidden;
    margin: 12px;
+   border-radius: 24px;
+}
+
+.img-person img {
+   border-radius: 24px;
+   transition: all .2s ease-in-out;
+}
+
+.img-person:hover img {
+   transform: scale(1.15) rotate(3deg);
 }
