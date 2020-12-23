@@ -3,6 +3,7 @@
 }
 
 :root {
+   --white: #fff;
    --gray1: #333;
    --gray2: #4F4F4F;
    --gray3: #828282;
@@ -12,6 +13,7 @@
    --gray7: #E0E0E0;
    --blue: #2D9CDB;
    --red: #EB5757;
+   --footer: #100E1D;
 }
 
 body {
@@ -331,4 +333,65 @@ input[type="submit"] {
    line-height: 27px;
    margin-top: 5px;
    color: var(--gray3)
+}
+
+.page-footer {
+   background-color: var(--footer);
+   margin-top: 200px;
+   width: 100%;
+}
+
+.footer-container {
+   padding: 46px 140px 110px 170px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.footer-nav {
+   color: var(--white);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 36px;
+}
+
+.footer-nav ul {
+   list-style-type: none;
+   margin: 0;
+}
+
+.footer-brand {
+   color: var(--gray6);
+   font-family: 'Heebo';
+   font-weight: 800;
+   font-size: 36px;
+   line-height: 53px;
+}
+
+.footer-media {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   width: 94px;
+   margin-top: 5px;
+}
+
+.footer-media img {
+   width: 24px;
+   height: 24px;
+}
+
+.footer-container .email-contact{
+   margin: 0;
+}
+
+.footer-copyright p {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+   padding: 0 0 30px 0;
+   color: var(--gray5);
+   font-family: 'Montserrat';
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
 }
